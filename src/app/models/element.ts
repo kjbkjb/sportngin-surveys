@@ -1,16 +1,18 @@
+///<reference path="placement.ts"/>
+///<reference path="question-element.ts"/>
 
 namespace SportNgin {
 
   export interface ElementInterface {
     type: string,
-    placement: any,
+    placement: PlacementInterface,
     question_element?: any
   }
 
   export class Element implements ElementInterface {
     type: string;
-    placement: any;
-    question_element?: any;
+    placement: Placement;
+    question_element?: QuestionElement;
 
   }
 }

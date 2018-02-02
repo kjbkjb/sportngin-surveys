@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "trace_id": "9fc5b98f-ae38-47ff-89e3-95d5ca7205ea"
+  },
+  "result": {
+    "id": 2500,
+    "name": "2010 Fall League Metro Adult Hockey Team Registration",
+    "site_id": 947,
+    "status": 2,
+    "registrar_emails": "shanna@showcasehockey.com, eric.knutsen@showcasehockey.com",
+    "rep_user_id": 4,
+    "open_date": null,
+    "close_date": null,
+    "forms": [
+      {
+        "id": 12791,
+        "name": "Registration",
+        "repeatable": false,
+        "form_type": "general",
+        "containers": [
+          {
+            "id": 909110,
+            "columns": [
+              {
+                "id": 964434,
+                "elements": [
+                  {
+                    "type": "question_element",
+                    "placement": {
+                      "id": 1453156,
+                      "position": 1,
+                      "element_locked": false,
+                      "content_locked": false,
+                      "custom_css_class": null
+                    },
+                    "question_element": {
+                      "id": 90988,
+                      "form_id": 12791,
+                      "question_id": 37631,
+                      "position": null,
+                      "is_required": true,
+                      "is_enabled": true,
+                      "created_at": "2010-06-14T13:42:45-07:00",
+                      "updated_at": "2010-06-14T14:09:33-07:00",
+                      "properties": {
+                        "errors": {}
+                      },
+                      "question": {
+                        "report_name": "Registration Fee",
+                        "inline_help": "",
+                        "long_help": "",
+                        "is_hidden": false,
+                        "auto_fill": true,
+                        "mask": false,
+                        "editable_by_user": true,
+                        "label": null,
+                        "question_type": "radio",
+                        "choices": [
+                          {
+                            "id": 101720,
+                            "is_enabled": true,
+                            "is_selected": true,
+                            "item_variation_id": 8691,
+                            "position": 1,
+                            "quantity": 1,
+                            "value": null,
+                            "numeric_value": null,
+                            "name": "2010 Fall League Metro Adult Hockey Team Registration"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "type": "hr",
+                    "placement": {
+                      "id": 1453160,
+                      "position": 5,
+                      "element_locked": false,
+                      "content_locked": false,
+                      "custom_css_class": null
+                    },
+                    "hr": {
+                      "id": 101881
+                    }
+                  },
+                  {
+                    "type": "text_block",
+                    "placement": {
+                      "id": 1453161,
+                      "position": 6,
+                      "element_locked": false,
+                      "content_locked": false,
+                      "custom_css_class": null
+                    },
+                    "text_block": {
+                      "id": 385067,
+                      "subtitle": "Terms of Service Agreement",
+                      "content": "\u003cp\u003eI will abide by all the rules set forth by the league and accept them entirely.\u0026nbsp; I am aware that I am responsible for the entire team registration fee and that there will be no refunds after the registration deadline.\u0026nbsp; Refund requests received before the deadline must be submitted in writing and are subject to a $25.00 processing fee.\u003c/p\u003e",
+                      "updated_on": "2009-12-16T11:01:52-08:00",
+                      "created_on": "2009-12-16T11:01:52-08:00",
+                      "display_size": "small",
+                      "alignment": "left",
+                      "url": "",
+                      "protocol": "http://",
+                      "has_url": false,
+                      "action": null,
+                      "image_id": null,
+                      "subtitle_alignment": "left",
+                      "cutline": null
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
